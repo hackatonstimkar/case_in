@@ -1,0 +1,10 @@
+<div style="background: white">
+<h2 > CaseIn Hakaton </h2>
+<h2 style="float: right">Здравствуйте, {{user?.name}}</h2>
+</div>
+<div>
+<button class="btn" routerLink="/scores">Кабинет рабочего</button>
+<button class="btn" routerLink="/control">Учет комплектующих</button>
+<!--<button class="btn" routerLink="/target">Цели</button> -->
+  <button class="btn-exit" routerLink="/" (click)="userStateServices.logOut()">Выход</button>
+</div>

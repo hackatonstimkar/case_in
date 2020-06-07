@@ -1,0 +1,60 @@
+<body>
+<app-header></app-header>
+<div class="mesage"><img src="assets/mes.png" width="60px" style="margin-left: 315px">
+  <div class="chat_on">
+    <div class="chat_header">
+      <img src="assets/pipl.png" class="leftimg" width="40px"> <p> Сергей Генадьевич</p>
+    </div>
+    <div class="mesage_ar" >
+      <div *ngFor="let m of mes">
+        <div id="left" *ngIf="m.id==1"><div class="content_l">{{m.mes}}</div></div>
+
+        <div id="right" *ngIf="m.id==2"><div class="content_r">{{m.mes}}</div></div>
+      </div>
+    </div>
+    <input type="text" class="wmes" [(ngModel)]="message"><img src="assets/send.png" width="40px" class="wsend" (click)="send()">
+  </div>
+</div>
+<div id="container">
+<div class="col">
+<mat-tab-group color="warn" [selectedIndex]="selected.value" (selectedIndexChange)="selected.setValue($event)">
+  <mat-tab *ngFor="let tab of ['Текущее','Выполнено','Просрочено']; let index = index;"  [label]="tab">
+
+    <mat-card class="example-card" *ngFor="let col of data;">
+      <mat-card-header>
+        <mat-card-title>{{col.name}}</mat-card-title>
+        <mat-card-subtitle>{{col.model}}</mat-card-subtitle>
+      </mat-card-header>
+
+      <img mat-card-image src="{{col.img}}" alt="zavod" width="100px" height="250px">
+
+      <mat-card-content>
+        <p>
+          Тип поломки: {{col.er}}<br>
+          Инструкция по эксплуатации: instruction.pdf<br>
+          История обслуживания: <br>
+          Постановление от: {{col.tamen}}<br>
+          Выполнить до:  {{col.tend}}<br>
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="link">Выполнено</button>
+        <button mat-raised-button color="link">Помощь</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-tab>
+</mat-tab-group>
+</div>
+  <div class="card">
+    <img src="../assets/rab.jpg" style="float:left; margin-right: 10px">
+    <p>Имя: <br>
+      Год рождения: <br>
+      Зачислен: <br>
+      Стаж: <br>
+      Место работы: <br>
+      Начальник: <br>
+      Компетенции:</p>
+  </div>
+</div>
+</body>
+

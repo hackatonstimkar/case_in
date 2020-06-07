@@ -1,0 +1,38 @@
+<app-header2></app-header2>
+
+<div class="container">
+
+  <mat-card class="example-card" >
+    <mat-card-header>
+      <mat-card-title>Станок ЧПУ</mat-card-title>
+      <mat-card-subtitle>СДФ-1500</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="../assets/stan.png" alt="zavod" width="100px">
+    <mat-card-content>
+      <p>Цех:  №2<br>
+        Инструктаж по эксплуатации: <br>
+        История обслуживания <br>
+        Напряжение: 175.213279625357<br>
+
+
+        Вибрация: 48.649<br>
+        давление: 104.43<br>
+        поворот: 478.75<br>
+        <br>
+      </p>
+      <div class="d-flex">
+        <div class="col">
+          <div class="card">
+            <div class="card-body p-1 m-0">
+              <canvas id="canvas" #chart></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+    <mat-card-actions style="position: absolute; bottom: 15px">
+      <button mat-raised-button color="link">Статистика</button>
+
+    </mat-card-actions>
+  </mat-card>
+</div>

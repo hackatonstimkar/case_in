@@ -1,0 +1,53 @@
+<form  [formGroup]="RegisterForm"  >
+    <div class="example-container">
+
+  <mat-form-field>
+      <input matInput placeholder="Имя" type="text" formControlName="name">
+    <mat-icon matSuffix>face</mat-icon>
+    <mat-error *ngIf="RegisterForm.get('name').touched">Поле имя не может быть пустым</mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Электронная почта" type="email"  formControlName="email">
+    <mat-icon matSuffix>email</mat-icon>
+    <mat-error *ngIf="RegisterForm.get('email').invalid ">Некорректная почта</mat-error>
+  </mat-form-field>
+      <mat-form-field>
+        <mat-label>Выбирите свой класс</mat-label>
+        <mat-select [(value)]="category" [(ngModel)]="category" formControlName="category">
+          <mat-option>  </mat-option>
+          <mat-option value="Директор">Директор</mat-option>
+          <mat-option value="Ремонтный рабочий">Ремонтный рабочий</mat-option>
+          <mat-option value="Начальник ремонтной службы">Начальник ремонтной службы</mat-option>
+          <mat-option value="Ответственный за оборудование">Ответственный за оборудование</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Выбирите предприятие</mat-label>
+        <mat-select  [disabled]="!isDisabled()" [(value)]="ceh" [(ngModel)]="ceh"  formControlName="cex">
+          <mat-option value="1">1</mat-option>
+          <mat-option value="2">2</mat-option>
+          <mat-option value="3">3</mat-option>
+        </mat-select>
+      </mat-form-field>
+  <mat-form-field>
+      <input matInput placeholder="Пароль" [type]="hide ? 'password' : 'text'" formControlName="password" >
+
+    <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+      <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error *ngIf="RegisterForm.get('password').invalid && RegisterForm.get('password').touched">Маленький пароль</mat-error>
+  </mat-form-field>
+
+  <mat-form-field>
+      <input matInput placeholder="Подтвержение пароля" [type]="hideConf ? 'password' : 'text'" formControlName="confirmPassword">
+
+    <button mat-icon-button matSuffix (click)="hideConf = !hideConf" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hideConf">
+      <mat-icon>{{hideConf? 'visibility_off' : 'visibility'}}</mat-icon>
+    </button>
+    <mat-error *ngIf="!isConfirmedPassword()&&RegisterForm.get('confirmPassword').invalid">Пароли не совпадают</mat-error>
+      </mat-form-field>
+
+  <button mat-raised-button color="warn" [disabled]="RegisterForm.invalid || !isConfirmedPassword()" (click)="onSubmit()">Зарегистрироваться</button>
+    </div>
+  </form>
+

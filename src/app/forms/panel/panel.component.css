@@ -1,0 +1,16 @@
+mat-tab-group{
+  background-color:white;
+  max-width: 400px;
+  float: right;
+  margin: 2% 2%;
+  border: 2px solid goldenrod;
+  margin-right: 450px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px;
+  height: 300px;
+  width: 300px;
+}

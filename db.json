@@ -1,0 +1,904 @@
+{
+  "users": [
+    {
+      "name": "Владимир",
+      "email": "asdf@mail.com",
+      "password": "1111",
+      "id": 1
+    },
+    {
+      "name": "nhjhjjhj",
+      "email": "hgmbm@ggjhj.com",
+      "password": "6666",
+      "id": 2
+    },
+    {
+      "name": "Акакий",
+      "email": "dddd@gmail.com",
+      "category": "",
+      "password": "1111",
+      "id": 3
+    },
+    {
+      "name": "ghbdtn",
+      "email": "iv@hh.com",
+      "category": [
+        {
+          "value": "steak-0",
+          "viewValue": "Steak"
+        },
+        {
+          "value": "pizza-1",
+          "viewValue": "Pizza"
+        },
+        {
+          "value": "tacos-2",
+          "viewValue": "Tacos"
+        }
+      ],
+      "password": "2222",
+      "id": 4
+    },
+    {
+      "name": "ghbdtn",
+      "email": "qwer@mail.com",
+      "category": "steak",
+      "password": "4444",
+      "id": 5
+    },
+    {
+      "name": "4566556",
+      "email": "dddd@mail.com",
+      "category": "steak",
+      "password": "7777",
+      "id": 6
+    },
+    {
+      "name": "Fred",
+      "email": "iv@hh.com",
+      "category": null,
+      "password": "4444",
+      "id": 7
+    },
+    {
+      "name": "from",
+      "email": "iv@hh.com",
+      "password": "5555",
+      "id": 8
+    },
+    {
+      "name": "jjjj",
+      "email": "iv@hh.com",
+      "category": null,
+      "password": "jjjj",
+      "id": 9
+    },
+    {
+      "name": "aa@jjj.com",
+      "email": "iv@hh.com",
+      "category": "Транспорт",
+      "password": "3333",
+      "id": 10
+    },
+    {
+      "name": "gggg",
+      "email": "dddd@gmail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "5555",
+      "id": 11
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "2222",
+      "id": 12
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "4444",
+      "id": 13
+    },
+    {
+      "name": "aaaa",
+      "email": "iv@hh.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "6666",
+      "id": 14
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "4444",
+      "id": 15
+    },
+    {
+      "name": "aa@jjj.com",
+      "email": "qwer@mail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "2222",
+      "id": 16
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "7777",
+      "id": 17
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ответственный за оборудование",
+      "cex": "",
+      "password": "0000",
+      "id": 18
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Начальник ремонтной службы",
+      "cex": "",
+      "password": "0000",
+      "id": 19
+    },
+    {
+      "name": "aa@jjj.com",
+      "email": "iv@hh.com",
+      "category": "Ответственный за оборудование",
+      "cex": "2",
+      "password": "1111",
+      "id": 20
+    },
+    {
+      "name": "iiii@sss.com",
+      "email": "qwert@mail.com",
+      "category": "Директор",
+      "cex": "1",
+      "password": "5555",
+      "id": 21
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Директор",
+      "cex": "3",
+      "password": "2222",
+      "id": 22
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Директор",
+      "cex": "",
+      "password": "0000",
+      "id": 23
+    },
+    {
+      "name": "4566556",
+      "email": "ivovalove24@gmail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "3",
+      "password": "0000",
+      "id": 24
+    },
+    {
+      "name": "aaaa",
+      "email": "aa@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 25
+    },
+    {
+      "name": "aaaa",
+      "email": "ivovalove24@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 26
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "2",
+      "password": "1111",
+      "id": 27
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "dddd@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 28
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "ivovalove24@gmail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 29
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "dddd@gmail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 30
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "9999",
+      "id": 31
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 32
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 33
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 34
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 35
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 36
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 37
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 38
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "0000",
+      "id": 39
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "-",
+      "password": "0000",
+      "id": 40
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "1111",
+      "id": 41
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Ответственный за оборудование",
+      "cex": "-",
+      "password": "1111",
+      "id": 42
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "4444",
+      "id": 43
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "4444",
+      "id": 44
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "ivovalove24@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 45
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Начальник ремонтной службы",
+      "cex": "-",
+      "password": "1111",
+      "id": 46
+    },
+    {
+      "name": "iv@hh.com",
+      "email": "rr@nhk.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "1111",
+      "id": 47
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "3333",
+      "id": 48
+    },
+    {
+      "name": "dddd",
+      "email": "ivovalove24@gmail.com",
+      "category": "Директор",
+      "cex": "-",
+      "password": "5555",
+      "id": 49
+    },
+    {
+      "name": "aaaa",
+      "email": "ivovalove24@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 50
+    },
+    {
+      "name": "yyyy",
+      "email": "iv@hh.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 51
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "2222",
+      "id": 52
+    },
+    {
+      "name": "4444",
+      "email": "qwe@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 53
+    },
+    {
+      "name": "4444",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 54
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "eeee@m.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "2222",
+      "id": 55
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "666@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "5252",
+      "id": 56
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "6666@j.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1212",
+      "id": 57
+    },
+    {
+      "name": "asdf@mail.com",
+      "email": "111@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 58
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 59
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "aa@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 60
+    },
+    {
+      "name": "ivovalove24@gmail.com",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "0000",
+      "id": 61
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "4444",
+      "id": 62
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "2222",
+      "id": 63
+    },
+    {
+      "name": "Павел",
+      "email": "qwer@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "2222",
+      "id": 64
+    },
+    {
+      "name": "qwert",
+      "email": "qwer@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1234",
+      "id": 65
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "iv@hh.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1234",
+      "id": 66
+    },
+    {
+      "name": "aaaa",
+      "email": "dddd@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1234",
+      "id": 67
+    },
+    {
+      "name": "dddd@gmail.com",
+      "email": "qwer@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "22222",
+      "id": 68
+    },
+    {
+      "name": "aaaa",
+      "email": "aa@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1234",
+      "id": 69
+    },
+    {
+      "name": "i",
+      "email": "ivovalove24@gmail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "2323",
+      "id": 70
+    },
+    {
+      "name": "aaaa",
+      "email": "aa@mail.com",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1234",
+      "id": 71
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "hhhh",
+      "id": 72
+    },
+    {
+      "name": "ggg",
+      "email": "y@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "hhhh",
+      "id": 73
+    },
+    {
+      "name": "id152666137",
+      "email": "tim@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "tttt",
+      "id": 74
+    },
+    {
+      "name": "hhh",
+      "email": "hh@mail.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "qqqq",
+      "id": 75
+    },
+    {
+      "name": "ппп",
+      "email": "hh@mail.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "пппп",
+      "id": 76
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "hhhh",
+      "id": 77
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "ggggg",
+      "id": 78
+    },
+    {
+      "name": "gg",
+      "email": "tim@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "jjjj",
+      "id": 79
+    },
+    {
+      "name": "gg",
+      "email": "tim@mail.ru",
+      "cex": "-",
+      "password": "1111",
+      "id": 80
+    },
+    {
+      "name": "r",
+      "email": "r@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 81
+    },
+    {
+      "name": "hh",
+      "email": "h@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 82
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "gggg",
+      "id": 83
+    },
+    {
+      "name": "fff",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "ffff",
+      "id": 84
+    },
+    {
+      "name": "id152666137",
+      "email": "hh@mail.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "gggg",
+      "id": 85
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "6666",
+      "id": 86
+    },
+    {
+      "name": "Kantrollzed",
+      "email": "Kantrollzed@yandex.ru",
+      "category": "Ответственный за оборудование",
+      "cex": "2",
+      "password": "Sasha1233",
+      "id": 87
+    },
+    {
+      "name": "Kantrollzed",
+      "email": "Kantrollzed@yandex.ru",
+      "category": "Директор",
+      "cex": "-",
+      "password": "Sasha111",
+      "id": 88
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "1111",
+      "id": 89
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "4444",
+      "id": 90
+    },
+    {
+      "name": "gg",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "gggg",
+      "id": 91
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "6666",
+      "id": 92
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "4444",
+      "id": 93
+    },
+    {
+      "name": "id152666137",
+      "email": "tim@mail.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "3333",
+      "id": 94
+    },
+    {
+      "name": "id152666137",
+      "email": "ff@mai.ru",
+      "category": "Ремонтный рабочий",
+      "cex": "-",
+      "password": "6666",
+      "id": 95
+    }
+  ],
+  "scores": [
+    {
+      "score": "fffff",
+      "userEmail": "asdf@mail.com",
+      "idUser": 1,
+      "id": 1
+    },
+    {
+      "score": "dkmjnj",
+      "userEmail": "asdf@mail.com",
+      "idUser": 1,
+      "id": 2
+    },
+    {
+      "score": "1111",
+      "userEmail": "ivovalove24@gmail.com",
+      "idUser": 50,
+      "id": 3
+    },
+    {
+      "score": "4444",
+      "userEmail": "ivovalove24@gmail.com",
+      "idUser": 50,
+      "id": 4
+    },
+    {
+      "score": "5555",
+      "userEmail": "iv@hh.com",
+      "idUser": 51,
+      "id": 5
+    },
+    {
+      "score": "4444",
+      "userEmail": "qwe@mail.com",
+      "idUser": 53,
+      "id": 6
+    },
+    {
+      "score": "3333",
+      "userEmail": "dddd@gmail.com",
+      "idUser": 54,
+      "id": 7
+    },
+    {
+      "score": "3333",
+      "userEmail": "eeee@m.com",
+      "idUser": 55,
+      "id": 8
+    },
+    {
+      "score": "4444",
+      "userEmail": "666@mail.com",
+      "idUser": 56,
+      "id": 9
+    },
+    {
+      "score": "333",
+      "userEmail": "6666@j.com",
+      "idUser": 57,
+      "id": 10
+    },
+    {
+      "score": "2222",
+      "userEmail": "6666@j.com",
+      "idUser": 57,
+      "id": 11
+    },
+    {
+      "score": "1111",
+      "userEmail": "6666@j.com",
+      "idUser": 57,
+      "id": 12
+    }
+  ],
+  "budget": [
+    {
+      "score": "dkmjnj",
+      "category": "расходы",
+      "podcategory": "Транспорт",
+      "sum": -33334,
+      "id": 1
+    },
+    {
+      "score": "fffff",
+      "category": "расходы",
+      "podcategory": "Транспорт",
+      "sum": -555,
+      "id": 2
+    },
+    {
+      "score": "dkmjnj",
+      "category": "доходы",
+      "podcategory": "Зарплата",
+      "sum": 55552,
+      "id": 3
+    },
+    {
+      "score": "",
+      "category": "расходы",
+      "podcategory": "Покупки",
+      "sum": -14,
+      "id": 4
+    },
+    {
+      "score": "fffff",
+      "category": "расходы",
+      "podcategory": "Транспорт",
+      "sum": -11,
+      "id": 5
+    },
+    {
+      "score": "",
+      "category": "расходы",
+      "podcategory": "Транспорт",
+      "sum": -555,
+      "id": 6
+    },
+    {
+      "score": "1111",
+      "category": "расходы",
+      "podcategory": "Жилье",
+      "sum": -888,
+      "id": 7
+    }
+  ],
+  "target": [
+    {
+      "name": "Автошкола",
+      "userEmail": "asdf@mail.com",
+      "sum": 20000,
+      "balance": 5000,
+      "id": 1
+    },
+    {
+      "name": "23",
+      "userEmail": "aa@mail.com",
+      "sum": 123435,
+      "balance": 0,
+      "id": 2
+    }
+  ]
+}

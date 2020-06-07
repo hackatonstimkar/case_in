@@ -1,0 +1,26 @@
+
+<div class="example-container">
+  <mat-form-field>
+    <mat-label>Введите сумму</mat-label>
+    <input matInput type=number [(ngModel)]="sum">
+  </mat-form-field>
+  <div style=" display: flex;
+  flex-direction: column;">
+    <mat-form-field>
+      <mat-label>Выбирите Счет</mat-label>
+      <select matNativeControl required  [(ngModel)]="name">
+        <option *ngFor="let tab of tabs;" >{{tab.score}}</option>
+      </select>
+    </mat-form-field>
+  <mat-form-field>
+    <mat-label>Выбирите категорию</mat-label>
+     <select matNativeControl required [(ngModel)]="podcategory" >
+       <option >Жилье</option>
+       <option >Транспорт</option>
+       <option >Покупки</option>
+       <option >Отдых</option>
+       <option >Кварплата</option>
+    </select>
+  </mat-form-field>
+    <button mat-raised-button color="warn" (click)="onSubmit()">Записать</button>
+</div>

@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  /*background: url("../../assets/fon.jpg") ;*/
+  background-color: white;
+}
+
+#container{
+
+  margin-right: 15px;
+  margin-left: 15px;
+  width:auto;
+  height:50%;
+
+}
+
+/* Отдельно для колонок */
+#col1 {float:left;
+  width: 65%;
+  margin-left: 20px;
+
+}
+#col1 img{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+#col2 {float:right;
+  width: 400px;
+  position: absolute;
+margin-left: 65%;}
+
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  height: 470px;
+  width: 100px;}
+
+
+
+
+
+#text {
+  margin-top: 130px;
+  margin-left: 300px; /* Отступ от левого края */
+  font-size: 22px;
+}
+#text2 {
+  margin-top: 160px;
+  margin-left: 50px; /* Отступ от левого края */
+  font-size: 22px;
+  text-align: center;
+}

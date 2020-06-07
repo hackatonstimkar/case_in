@@ -1,0 +1,55 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  /*background: url("../../../assets/fon.jpg") ; */
+  background-color: lightgray;
+  height: 100%;
+}
+
+mat-tab-group{
+  background-color: white;
+  margin-top: 5%;
+  width: auto;
+}
+.add-tab-button{
+  margin: 8px;
+}
+#container{
+  margin-right: 15px;
+  margin-left: 15px;
+  width:auto;
+
+
+
+}
+
+.tab-button{
+  margin-top: 20px;
+  padding: 2px;
+}
+.data{
+  font-size: 20px;
+}
+.example-card {
+  max-width:300px;
+  min-height: 700px;
+  float:left;
+  margin-right: 10px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+.card {
+  float:right;
+  width: 280px;
+  position: absolute;
+
+  border-style: solid ;
+  border-color: black;
+  background-color: white;
+  margin-top: 10px;
+}

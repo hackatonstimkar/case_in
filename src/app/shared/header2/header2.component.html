@@ -1,0 +1,12 @@
+<div style="background: white">
+  <h2 style="padding-left: 15px;"> CaseIn Hakaton </h2>
+  <h2 style="float: right; padding-right: 15px;">{{user?.name}} </h2>
+</div>
+<div>
+  <button class="btn" routerLink="/target">Панель управления</button>
+  <button class="btn" routerLink="/monit">Мониторинг</button>
+  <button class="btn" routerLink="/analitic">Аналитика</button>
+  <button class="btn" routerLink="/history">План работ</button>
+  <button class="btn-exit" routerLink="/" (click)="userStateServices.logOut()">Выход</button>
+</div>
+
